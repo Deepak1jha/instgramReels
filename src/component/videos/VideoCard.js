@@ -1,8 +1,9 @@
 import React, {useRef, useState} from "react";
 import '../videos/VideoCard.css';
 import Header from "../header/Header";
+import Footer from "../footer/Footer";
 
-export default function VideoCard() {
+export default function VideoCard({channel, avatarSrc, song, url, likes, shares}) {
 
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
@@ -24,9 +25,15 @@ export default function VideoCard() {
       <video className="video_player"
              ref={videoRef}
              onClick={onVideoPress}
-             src={"https://media.w3.org/2010/05/sintel/trailer_hd.mp4"} alt="IG Reel Video"
+             src={url} alt="IG Reel Video"
              loop/>
-
+      <Footer
+        channel={channel}
+        avatarSrc={avatarSrc}
+        song={song}
+        likes={likes}
+        shares={shares}
+      />
     </div>
   )
 }
