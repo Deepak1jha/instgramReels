@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/instgramReels/static/css/main.a9deafa9.chunk.css",
+    "main.js": "/instgramReels/static/js/main.cdab66e2.chunk.js",
+    "main.js.map": "/instgramReels/static/js/main.cdab66e2.chunk.js.map",
+    "runtime-main.js": "/instgramReels/static/js/runtime-main.3a2224de.js",
+    "runtime-main.js.map": "/instgramReels/static/js/runtime-main.3a2224de.js.map",
+    "static/js/2.20249d5a.chunk.js": "/instgramReels/static/js/2.20249d5a.chunk.js",
+    "static/js/2.20249d5a.chunk.js.map": "/instgramReels/static/js/2.20249d5a.chunk.js.map",
+    "index.html": "/instgramReels/index.html",
+    "precache-manifest.c68b7be9770770c41c9c6cb4659262d8.js": "/instgramReels/precache-manifest.c68b7be9770770c41c9c6cb4659262d8.js",
+    "service-worker.js": "/instgramReels/service-worker.js",
+    "static/css/main.a9deafa9.chunk.css.map": "/instgramReels/static/css/main.a9deafa9.chunk.css.map",
+    "static/js/2.20249d5a.chunk.js.LICENSE.txt": "/instgramReels/static/js/2.20249d5a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a2224de.js",
+    "static/js/2.20249d5a.chunk.js",
+    "static/css/main.a9deafa9.chunk.css",
+    "static/js/main.cdab66e2.chunk.js"
+  ]
+}
