@@ -1,5 +1,6 @@
 import React, {useRef, useState} from "react";
 import '../videos/VideoCard.css';
+import Header from "../header/Header";
 
 export default function VideoCard() {
 
@@ -19,11 +20,13 @@ export default function VideoCard() {
 
   return (
     <div className="videoCard">
+      <Header/>
       <video className="video_player"
              ref={videoRef}
              onClick={onVideoPress}
              src={"https://media.w3.org/2010/05/sintel/trailer_hd.mp4"} alt="IG Reel Video"
              loop/>
+
     </div>
   )
 }
